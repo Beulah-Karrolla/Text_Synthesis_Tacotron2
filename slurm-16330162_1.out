@@ -1,0 +1,13 @@
+Using cache found in /users/PAS2400/bkarrolla1/.cache/torch/hub/NVIDIA_DeepLearningExamples_torchhub
+/users/PAS2400/bkarrolla1/.cache/torch/hub/NVIDIA_DeepLearningExamples_torchhub/PyTorch/Classification/ConvNets/image_classification/models/common.py:13: UserWarning: pytorch_quantization module not found, quantization will not be available
+  warnings.warn(
+/users/PAS2400/bkarrolla1/.cache/torch/hub/NVIDIA_DeepLearningExamples_torchhub/PyTorch/Classification/ConvNets/image_classification/models/efficientnet.py:17: UserWarning: pytorch_quantization module not found, quantization will not be available
+  warnings.warn(
+2.0.0+cu117
+2.0.1+cu117
+cuda
+[19, 16, 23, 23, 26, 11, 34, 26, 29, 23, 15, 2, 11, 31, 16, 35, 31, 11, 31, 26, 11, 30, 27, 16, 16, 14, 19, 2]
+tensor([[19, 16, 23, 23, 26, 11, 34, 26, 29, 23, 15,  2, 11, 31, 16, 35, 31, 11,
+         31, 26, 11, 30, 27, 16, 16, 14, 19,  2]])
+tensor([28], dtype=torch.int32)
+['h', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd', '!', ' ', 't', 'e', 'x', 't', ' ', 't', 'o', ' ', 's', 'p', 'e', 'e', 'c', 'h', '!']

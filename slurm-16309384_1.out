@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/users/PAS2400/bkarrolla1/TTS_project/tts_main.py", line 36, in <module>
+    s = synthesize(model, "|" + tokens[0] + "|" + tokens[1] + "|" + tokens[1])
+  File "/users/PAS2400/bkarrolla1/TTS_project/Multilingual_Text_to_Speech/synthesize.py", line 65, in synthesize
+    language[hp.languages.index(l_cw_s[0])] = 1 if len(l_cw_s) == 1 else float(l_cw_s[1])
+ValueError: 'spanish' is not in list

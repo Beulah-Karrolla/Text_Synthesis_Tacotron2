@@ -1,0 +1,18 @@
+Downloading: "https://download.pytorch.org/torchaudio/models/tacotron2_english_phonemes_1500_epochs_ljspeech.pth" to /users/PAS2400/bkarrolla1/.cache/torch/hub/checkpoints/tacotron2_english_phonemes_1500_epochs_ljspeech.pth
+2.0.0+cu117
+2.0.1+cu117
+cuda
+[19, 16, 23, 23, 26, 11, 34, 26, 29, 23, 15, 2, 11, 31, 16, 35, 31, 11, 31, 26, 11, 30, 27, 16, 16, 14, 19, 2]
+tensor([[19, 16, 23, 23, 26, 11, 34, 26, 29, 23, 15,  2, 11, 31, 16, 35, 31, 11,
+         31, 26, 11, 30, 27, 16, 16, 14, 19,  2]])
+tensor([28], dtype=torch.int32)
+['h', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd', '!', ' ', 't', 'e', 'x', 't', ' ', 't', 'o', ' ', 's', 'p', 'e', 'e', 'c', 'h', '!']
+  0%|          | 0.00/107M [00:00<?, ?B/s]  1%|          | 1.16M/107M [00:00<00:09, 12.2MB/s]  3%|▎         | 3.08M/107M [00:00<00:06, 16.6MB/s]  6%|▌         | 6.18M/107M [00:00<00:04, 23.7MB/s] 10%|█         | 10.9M/107M [00:00<00:02, 33.9MB/s] 15%|█▌        | 16.5M/107M [00:00<00:02, 42.4MB/s] 20%|██        | 22.0M/107M [00:00<00:01, 47.5MB/s] 26%|██▌       | 28.1M/107M [00:00<00:01, 52.7MB/s] 32%|███▏      | 34.1M/107M [00:00<00:01, 56.1MB/s] 37%|███▋      | 40.2M/107M [00:00<00:01, 58.4MB/s] 43%|████▎     | 46.3M/107M [00:01<00:01, 60.1MB/s] 49%|████▊     | 52.4M/107M [00:01<00:00, 61.1MB/s] 54%|█████▍    | 58.5M/107M [00:01<00:00, 61.8MB/s] 60%|██████    | 64.6M/107M [00:01<00:00, 62.4MB/s] 66%|██████▌   | 70.7M/107M [00:01<00:00, 62.7MB/s] 72%|███████▏  | 77.0M/107M [00:01<00:00, 63.6MB/s] 78%|███████▊  | 83.6M/107M [00:01<00:00, 65.2MB/s] 84%|████████▍ | 90.3M/107M [00:01<00:00, 66.5MB/s] 90%|█████████ | 96.9M/107M [00:01<00:00, 67.5MB/s] 96%|█████████▋| 104M/107M [00:01<00:00, 68.4MB/s] 100%|██████████| 107M/107M [00:01<00:00, 57.2MB/s]
+/users/PAS2400/bkarrolla1/miniconda3/envs/tts_proj2/lib/python3.10/site-packages/torch/hub.py:286: UserWarning: You are about to download and run code from an untrusted repository. In a future release, this won't be allowed. To add the repository to your trusted list, change the command to {calling_fn}(..., trust_repo=False) and a command prompt will appear asking for an explicit confirmation of trust, or load(..., trust_repo=True), which will assume that the prompt is to be answered with 'yes'. You can also use load(..., trust_repo='check') which will only prompt for confirmation if the repo is not already trusted. This will eventually be the default behaviour
+  warnings.warn(
+Downloading: "https://github.com/NVIDIA/DeepLearningExamples/zipball/torchhub" to /users/PAS2400/bkarrolla1/.cache/torch/hub/torchhub.zip
+/users/PAS2400/bkarrolla1/.cache/torch/hub/NVIDIA_DeepLearningExamples_torchhub/PyTorch/Classification/ConvNets/image_classification/models/common.py:13: UserWarning: pytorch_quantization module not found, quantization will not be available
+  warnings.warn(
+/users/PAS2400/bkarrolla1/.cache/torch/hub/NVIDIA_DeepLearningExamples_torchhub/PyTorch/Classification/ConvNets/image_classification/models/efficientnet.py:17: UserWarning: pytorch_quantization module not found, quantization will not be available
+  warnings.warn(
+Downloading: "https://api.ngc.nvidia.com/v2/models/nvidia/waveglowpyt_fp32/versions/1/files/nvidia_waveglowpyt_fp32_20190306.pth" to /users/PAS2400/bkarrolla1/.cache/torch/hub/checkpoints/nvidia_waveglowpyt_fp32_20190306.pth
